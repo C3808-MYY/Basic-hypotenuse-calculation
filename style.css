@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin:100px
+}
+form{
+    position: relative;
+    border: 1px solid blue;
+    font-display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 240px;
+    width: 400px;
+    
+}
+input{
+    width: 150px;
+
+}
+#birdik{
+    border: 3px solid black;
+    position: absolute;
+    width: 200px;
+    bottom: 100px;
+    margin-bottom:10px;
+    left: -90px;
+    transform: rotate(-90deg);
+    border-bottom: 5px solid green;
+
+}
+#ikidik{
+    position: absolute;
+    border: 3px solid black;
+    border-top: 5px solid blue;
+    bottom: 0px;
+    left: 20px;
+    width: 150px;
+
+}
+#hipoP{
+    width: 250px;
+    position: absolute;
+    border: 3px solid black;
+    border-bottom: 5px solid red;
+    bottom: 220px;
+    left: 17px;
+    /* transform-origin: bottom right; */
+    /* transform: rotate(57deg); */
+    /* transform-origin: 100% 50%; */
+    transform-origin: left bottom 0cm;
+    transform: rotate(52deg);
+
+}
+button{
+    position: absolute;
+    bottom: 90%;
+    left: 200px;
+}
+section{
+    position: absolute;
+    bottom: 80%;
+    left: 200px;
+}
